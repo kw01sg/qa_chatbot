@@ -29,20 +29,3 @@ $ pip install farm-haystack[faiss,pdf]
 $ export FLASK_APP=flask_app
 $ flask run --host=0.0.0.0 --port=5000
 ```
-
-## Docker
-
-### Build and Run Flask App using Docker
-
-* Current image is only CPU compatible
-* Update dockerfile, replacing `<app_name>`
-* Add `instance/config` file
-* Build and Run Image
-
-```bash
-$ docker build -t <app_name> -f DockerFile .
-$ docker run -d --rm -p 5000:5000 <app_name>
-
-$ # tear down container
-$ docker stop <app_name>
-```
