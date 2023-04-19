@@ -8,7 +8,7 @@ Three types of models are available:
 * ExtractiveTextQAModel
 * GenerativeTextQAModel
 
-Details on their implementation can be found in [flask_app\model\declarations.py](flask_app\model\declarations.py).
+Details on their implementation can be found in [flask_app/model/declarations.py](flask_app/model/declarations.py).
 
 
 ## Create Environment using Conda
